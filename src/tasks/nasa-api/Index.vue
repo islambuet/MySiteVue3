@@ -17,14 +17,16 @@
       <div class="row" v-if="item.exists">
         <div class="col-12">
           <table>
-            <tr>
-              <td>Title</td>
-              <td>{{item.data.title}}</td>
-            </tr>
-            <tr>
-              <td>Description</td>
-              <td>{{item.data.explanation}}</td>
-            </tr>
+            <tbody>
+              <tr>
+                <td>Title</td>
+                <td>{{item.data.title}}</td>
+              </tr>
+              <tr>
+                <td>Description</td>
+                <td>{{item.data.explanation}}</td>
+              </tr>
+            </tbody>
           </table>
           <img style="max-width:100%;" alt="Vue logo" :src="item.data.hdurl">
         </div>
